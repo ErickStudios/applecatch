@@ -132,7 +132,8 @@ scene.setBackgroundImage(img`
     7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
     7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
     `)
-music.play(music.stringPlayable("G A G A B A B A ", 120), music.PlaybackMode.LoopingInBackground)
+music.play(music.stringPlayable("C C C C C D D D ", 120), music.PlaybackMode.UntilDone)
+music.play(music.stringPlayable("C C C C C D D D ", 120), music.PlaybackMode.UntilDone)
 let Food1 = sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
